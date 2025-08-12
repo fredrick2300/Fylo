@@ -4,8 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fylo Landing page</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/ee0082ad61.js" crossorigin="anonymous"></script>
+
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -18,9 +25,9 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">features</a></li>
+                        <li><a href="#feature">features</a></li>
                         <li><a href="#">team</a></li>
-                        <li><a href="#">sign in</a></li>
+                        <li><a href="#info-wrapper">sign in</a></li>
                     </ul>
                 </nav>
             </header>
@@ -40,7 +47,7 @@
         </section>
 
         <!-- features -->
-        <section class="feature">
+        <section class="feature" id="feature">
             <div class="feature-row">
                 <div class="feature-col">
                     <div class="feature-img">
@@ -80,16 +87,21 @@
         <!-- productive -->
         <section class="productive">
             <div class="productive-row">
-                <div class="prooductive-img productive-col">
+                <div class="productive-img productive-col">
                     <img src="images/illustration-stay-productive.png" alt="">
                 </div>
 
                 <div class="productive-text productive-col">
                     <h2>Stay productive, wherever you are</h2>
-                    <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your
-                        filestorage needs.</p>
-                    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No
-                        email attachments required.</p>
+                    <p>
+                        Never let location be an issue when accessing your files. Fylo has you covered for all of your
+                        filestorage needs.
+                    </p>
+                    <p>
+                        Securely share files and folders with friends, family and colleagues for live collaboration. No
+                        email attachments required.
+                    </p>
+
                     <a href="">See how Fylo works <span><img src="images/icon-arrow.svg" alt=""></span></a>
                 </div>
             </div>
@@ -145,7 +157,7 @@
         </section>
 
         <!-- information -->
-        <section class="info-wrapper">
+        <section class="info-wrapper" id="info-wrapper">
             <div class="info">
                 <h2>Get early access today</h2>
                 <p>
@@ -161,10 +173,77 @@
         </section>
 
         <!-- footer -->
-         <footer></footer>
+        <footer>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <a href="" class="footer-logo">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                    <p>
+                        Fylo is a free file sharing service that allows you to store and share files securely. With
+                        Fylo, you can access your files from anywhere, collaborate with others, and keep your data safe.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <div class="fylo-details">
+                        <img src="images/icon-location.svg" alt="">
+                        <p>1234 Street Name, City, State 12345</p>
+                    </div>
+                    <div class="fylo-details">
+                        <img src="images/icon-phone.svg" alt="">
+                        <a href="tel:+2348136840441">+2348136840441</a>
+                    </div>
+                    <div class="fylo-details">
+                        <img src="images/icon-email.svg" alt="">
+                        <a href="mailto:fredobianyo@gmail.com">fredobianyo@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <div class="footer-list">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">jobs</a></li>
+                            <li><a href="#">press</a></li>
+                            <li><a href="#">blogs</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">terms</a></li>
+                            <li><a href="#">privacy</a></li>
+                            <li><a href="#">blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <div class="social-icons">
+                        <a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="attributes">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="">Fredrick</a>.
+            </p>
+        </footer>
     </main>
-
-
 </body>
 
 </html>
